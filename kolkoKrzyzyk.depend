@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1521484174 source:c:\users\cocobongos\desktop\programowanie\techniki\kolkokrzyzyk\main.cpp
+	<iostream>
+	"plansza.h"
+
+1521484064 source:c:\users\cocobongos\desktop\programowanie\techniki\kolkokrzyzyk\plansza.cpp
+	<iostream>
+	<iomanip>
+	"plansza.h"
+	<cstdlib>
+
+1521484097 c:\users\cocobongos\desktop\programowanie\techniki\kolkokrzyzyk\plansza.h
+	<iostream>
+
