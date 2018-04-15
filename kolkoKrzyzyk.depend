@@ -12,3 +12,29 @@
 1521484097 c:\users\cocobongos\desktop\programowanie\techniki\kolkokrzyzyk\plansza.h
 	<iostream>
 
+1523365242 source:c:\users\ola\desktop\kosma\kolkokrzyzyk\plansza.cpp
+	<iostream>
+	<iomanip>
+	"plansza.h"
+	<cstdlib>
+
+1523365091 c:\users\ola\desktop\kosma\kolkokrzyzyk\plansza.h
+	<iostream>
+
+1523365091 source:c:\users\ola\desktop\kosma\kolkokrzyzyk\main.cpp
+	<iostream>
+	"plansza.h"
+
+1523380800 source:g:\lista 3  kosma\kolkokrzyzyk\main.cpp
+	<iostream>
+	"plansza.h"
+
+1523381494 g:\lista 3  kosma\kolkokrzyzyk\plansza.h
+	<iostream>
+
+1523365244 source:g:\lista 3  kosma\kolkokrzyzyk\plansza.cpp
+	<iostream>
+	<iomanip>
+	"plansza.h"
+	<cstdlib>
+

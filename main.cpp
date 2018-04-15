@@ -7,25 +7,47 @@ int main()
 {
   //  cout<<"Podaj Wymiar planszy: ";
   //  int wymiar;
-    plansza nr1(3);    //JAK TO ZAALOKOWAC
+    int wybor,N=3,X=2;
+    char a,b;
+    cout<<"Wybierz gre\n 1. Kolko i Krzyzyk\n 2. Czworki :";
+    cin>> wybor;
 
+    if(wybor==2){
+        cout<<"\nPodaj rozmiar planszy N: ";
+        X=3;
+    do{
+            cin>>N;
+        }while(N<1);
+    }
 
+    if(wybor==1){
+                a='X';
+                b='O';
+                }
+    else{
+        a='C';
+        b='N';
+        }
 
-    int k;
-    cout<<"Kto zaczyna ?\n1.Kolko\n2.Krzyzyk ";
-    cin>>k;
-    if(k==2){
-    nr1.czyj_ruch=-1;} //NIEBIESKI =-1
-    else nr1.czyj_ruch=1;
+plansza nr1(N,X,a,b,wybor);
+nr1.poka();
 
-    nr1.poka();
-
-    do
-    {
+if(wybor==1){
+    do{
         nr1.wykonajRuch();
 
     }
     while(nr1.gameover());
+}
+else{
+    do{
+        nr1.wykonajRuch4();
 
+    }
+    while(nr1.gameover());
+
+
+
+}
     return 0;
 }
