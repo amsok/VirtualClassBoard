@@ -38,3 +38,40 @@
 	"plansza.h"
 	<cstdlib>
 
+1523873413 source:c:\github\virtualclassboard\main.cpp
+	<iostream>
+	"plansza.h"
+	<iomanip>
+	<cstdlib>
+	"TicTacToe.h"
+	"fours.h"
+
+1523873099 c:\github\virtualclassboard\plansza.h
+	<iostream>
+
+1523871010 source:c:\github\virtualclassboard\plansza.cpp
+	<iostream>
+	<iomanip>
+	"plansza.h"
+	<cstdlib>
+
+1523871873 source:c:\github\virtualclassboard\fours.cpp
+	<iostream>
+	<iomanip>
+	"fours.h"
+	<cstdlib>
+
+1523871917 c:\github\virtualclassboard\fours.h
+	"plansza.h"
+	<iostream>
+
+1523873365 c:\github\virtualclassboard\tictactoe.h
+	"plansza.h"
+	<iostream>
+
+1523873365 source:c:\github\virtualclassboard\tictactoe.cpp
+	<iostream>
+	<iomanip>
+	"TicTacToe.h"
+	<cstdlib>
+
